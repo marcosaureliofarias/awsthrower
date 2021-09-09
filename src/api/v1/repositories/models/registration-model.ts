@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
 
-export interface IRegistrationModel extends mongoose.Document {
+export interface IProfessionalRegistrationModel extends mongoose.Document {
     nameCompany: string;
     titleJob: string;
     webSite: string;
@@ -41,6 +41,6 @@ const Schema = new mongoose.Schema(
     },
 );
 
-const Registration = mongoose.model<IRegistrationModel>('registration', Schema, 'registration', true);
+const ProfessionalRegistration = mongoose.model<IProfessionalRegistrationModel>('ProfessionalRegistration', Schema, 'professional_registration', true);
 
-export { Registration };
+export { ProfessionalRegistration };

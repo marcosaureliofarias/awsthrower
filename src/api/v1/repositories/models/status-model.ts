@@ -22,6 +22,6 @@ const Schema = new mongoose.Schema(
     },
 );
 
-const Status = mongoose.model<IStatusModel>('status', Schema, 'status', true);
+const Status = mongoose.model<IStatusModel>('status', Schema, 'status_processing', true);
 
 export { Status };

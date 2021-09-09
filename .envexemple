@@ -1,0 +1,3 @@
+MONGO_URI=mongodb+srv://Thrower:thrower@cluster0.xzqic.mongodb.net/HuntingIA-Dev?retryWrites=true&w=majority
+MONGO_DATABASE=HuntingIA-Dev
+NODE_ENV = *

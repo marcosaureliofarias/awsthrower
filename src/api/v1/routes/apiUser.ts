@@ -19,7 +19,7 @@ Cadastro.route('/register')
 
     .post(
         (req: Request, res: Response) => {
-            controller.register(
+            controller.ProfessionalRegistration(
                 req,
                 res
             )

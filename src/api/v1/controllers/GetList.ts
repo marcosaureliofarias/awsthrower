@@ -10,7 +10,7 @@ export class GetListController {
     async GetList(req: Request, res: Response): Promise<void> {
         RegisterVacanciesITRepository.findAll().then(result => {
             if (result) {
-                res.send(result)
+               return res.send(result)
             } else {
                 throw result
             }
